@@ -44,7 +44,6 @@ if __name__ == "__main__":
   for key in stacks.keys():
     stacks[key].reverse()
   
-  digits_re = re.compile('\d{*}')
   with open('crate_movements.txt') as movements:
     for line in movements:
       movement_parts = line.split(' ')
